@@ -1,0 +1,451 @@
+body {
+    background-color: rgb(255, 222, 230);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.inicio {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 30px;
+}
+
+.titulo {
+    text-decoration: none;
+    color: black;
+}
+
+/*Imagem*/
+.foto {
+    margin-top: 5px;
+    margin-left: 90px;
+    border: #8b4513 solid 6px;
+    border-radius: 10px;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/*citação*/
+.citacao {
+    border-left: 4px solid #8B4513;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 2px;
+}
+
+/*texto introdutório*/
+.sobre {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    font-size: 23px;
+    max-width: 700px;
+}
+
+/*faixa para os botões*/
+.explore {
+    text-align: center;
+    background: white;
+    padding-bottom: 70px;
+    padding-top: 35px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+/*botões*/
+.botoes {
+    justify-content: center;
+    gap: 40px;
+}
+
+.botao {
+    width: 650px;
+    height: 210px;
+    color: white;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+    text-decoration: none;
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+.texts {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 13px;
+}
+
+.icone {
+    width: 100px;
+    margin: 45px;
+}
+
+/*Rodapé do site*/
+footer {
+  background: rgb(17, 17, 56);
+  padding-bottom: 40px;
+  padding-top: 35px;
+  font-size: 15px;
+  color: white;
+  padding-left: 34px;
+}
+
+.insta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.tik {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  margin-right: 94px;
+  margin-left: 60px;
+  margin-top: 25px;
+  border-top: 1px;
+  color: rgb(117, 117, 141);
+}
+
+.direitos {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.obras {
+    background-color: #8B4513;
+    font-size: 10px;
+}
+
+.biografia {
+    background-color: rgb(23, 23, 78);
+}
+
+.historia {
+    background-color: rgb(161, 27, 27);
+}
+
+.frases {
+    background-color: rgb(77, 121, 243);
+}
+
+/*Rodapé*/
+footer {
+    background: rgb(17, 17, 56);
+    padding-bottom: 40px;
+    padding-top: 35px;
+    font-size: 15px;
+    color: white;
+    padding-left: 34px;
+}
+
+.dados {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.dados img {
+    max-width: 200px;
+}
+
+.nome {
+    color: white;
+}
+
+hr {
+    margin-right: 94px;
+    margin-left: 60px;
+    margin-top: 25px;
+    border-top: 1px;
+    color: rgb(117, 117, 141);
+}
+
+.direitos {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+/* Biografia Completa */
+.margin {
+    margin: 0px;
+    margin-bottom: 60px;
+}
+
+.bio {
+    text-align: center;
+    font-size: 23px;
+}
+
+.txt {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.iv {
+    border-left: 4px solid #9c531e;
+}
+
+.momento {
+    border-left: 4px solid #ff4545;
+}
+
+.sucesso {
+    border-left: 4px solid #d6da1e;
+}
+
+.ob {
+    border-left: 4px solid #177714;
+}
+
+.impacto {
+    border-left: 4px solid #3538ff;
+}
+
+.criticas {
+    border-left: 4px solid #912682;
+}
+
+.pagina2 {
+    font-size: 32px;
+}
+
+
+/* Obras em destaque*/
+.od {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.secret {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.segredo {
+    display: flex;
+    flex-direction: column;
+}
+
+.margem {
+    margin: 0px;
+    padding-bottom: 150px;
+}
+
+.opoder {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.poder {
+    display: flex;
+    flex-direction: column;
+}
+
+.amagia {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.magia {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+    margin-bottom: 80px;
+}
+
+.heroi {
+    display: flex;
+    flex-direction: column;
+}
+
+.bordas {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 25px;
+}
+
+/*Vida atual*/
+.his {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 23px;
+}
+
+.bloco {
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 800px;
+    border-radius: 12px;
+}
+
+.oi {
+    background-color: rgb(255, 241, 241);
+}
+
+.dt {
+    background-color: rgb(222, 169, 247);
+}
+
+.ce {
+    background-color: rgb(200, 230, 255);
+}
+
+.vai {
+    background-color: rgb(255, 157, 157);
+}
+
+/*Frases marcantes*/
+.fm {
+    text-align: center;
+    font-size: 23px;
+}
+
+.frase {
+    margin-left: 230px;
+    text-align: left;
+}
+
+.secao {
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: black 1px solid;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.vazio {
+    margin-bottom: 50px;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+    .botoes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container-carousel {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .txt {
+        margin: 50px;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    .bordas {
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 20px;
+    }
+
+    .od {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .margem {
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+
+    .bloco {
+        font-size: 20px;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-bottom: 60px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 530px;
+        border-radius: 12px;
+    }
+
+    .frase {
+        margin-left: 40px;
+        text-align: left;
+    }
+
+    .cards {
+        margin: 40px;
+    }
+}
